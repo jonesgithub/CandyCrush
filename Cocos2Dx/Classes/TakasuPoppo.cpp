@@ -428,7 +428,7 @@ bool TakasuPoppo::isBlockMatched(int gid, int typeID) {
         gid != 22 && gid != 27 && gid != 28 &&
         gid != 29 && gid != 34 && gid != 35 &&
         gid != 36 && gid != 41 && gid != 42 &&
-        gid != 43 && gid != 48 && gid != 48) {
+        gid != 43 && gid != 48 && gid != 49) {
         if (TakasuPoppo::isRightQuadMatch(gid, typeID)) {
             CCLog("Right Quad");
             return true;
